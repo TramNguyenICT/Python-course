@@ -20,11 +20,11 @@ while True:
     if userInput == "":
         break
     try:
-        userNumberInInt = int(userInput)
-        if smallest is None or userNumberInInt <= smallest:
-            smallest = userNumberInInt
-        if largest is None or userNumberInInt >= largest:
-            largest = userNumberInInt
+        userNumberInFloat = float(userInput)
+        if smallest is None or userNumberInFloat <= smallest:
+            smallest = userNumberInFloat
+        if largest is None or userNumberInFloat >= largest:
+            largest = userNumberInFloat
     except ValueError:
         print("You have enter an invalid value, only numbers or empty string are accepted")
 print("Smallest number: ", smallest)
