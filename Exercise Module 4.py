@@ -55,7 +55,9 @@ while i < 5:
         print("Welcome!")
         loginSuccessful = True
         break
-    elif usernameInput != username and passwordInput != password:
+    elif i == 4:
+        print("The username and password did not match.")
+    else:
         print("The username and password did not match. Try again.")
     i += 1
 
