@@ -42,7 +42,6 @@ primeNumber = True
 for i in range(2,userInt):
     if userInt % i == 0:
         primeNumber = False
-
 if primeNumber is True:
     print("Your number is a prime number")
 else:
