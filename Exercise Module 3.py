@@ -22,9 +22,9 @@ else:
 gender = input("What is your biological gender? ")
 hemoglobinValue = float(input("What is your hemoglobin value? "))
 if gender == "Female" or gender == "female" or gender == "F" or gender == "f":
-    if hemoglobinValue < 118:
+    if hemoglobinValue < 117:
         print("Your hemoglobin value is low.")
-    elif 118 <= hemoglobinValue <= 155:
+    elif 117 <= hemoglobinValue <= 155:
         print("Your hemoglobin value is normal.")
     elif hemoglobinValue > 155:
         print("Your hemoglobin value is high.")
